@@ -91,6 +91,17 @@ body {
 
 .attribution {
   color: hsl(228, 45%, 44%);
-  font-size: 11px;
+  font-size: 12px;
+  padding-bottom: 0.5rem;
   text-align: center;
+}
+
+.attribution a {
+  color: hsl(179, 100%, 13%);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.attribution a:last-of-type {
+  font-family: 'Big Shoulders Display', sans-serif;
 }
