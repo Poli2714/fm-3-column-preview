@@ -72,9 +72,10 @@ body {
 
 .learn-more-btn {
   background-color: hsl(0, 0%, 95%);
-  border: none;
+  border: 2px solid hsl(0, 0%, 95%);
   border-radius: 25px;
-  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  padding: 0.8rem 2.2rem;
 }
 
 .left-col .learn-more-btn {
@@ -87,6 +88,13 @@ body {
 
 .right-col .learn-more-btn {
   color: hsl(179, 100%, 13%);
+}
+
+.learn-more-btn:hover {
+  background-color: hsla(0, 0%, 95%, 0);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  transition: all 0.15s linear;
 }
 
 .attribution {
